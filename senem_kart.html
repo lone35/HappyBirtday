@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Senem'e Sürpriz!</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #fef6e4;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      max-width: 500px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    h1 {
+      color: #ff6b6b;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #333;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #ffb703;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    audio {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🎂 Mumları üflemek için hazır mısın, Senem? 🎉</h1>
+    <img src="senem.jpg" alt="Senem’in Fotoğrafı"/>
+    <p>Hayatın her anı mutlulukla dolsun.<br>
+    Şen kahkahalar, Neşe, Mutluluk hiç peşini bırakmasın.<br>
+    Doğum günün kutlu olsun! İYİKİ VARSIN…</p>
+    <audio controls autoplay>
+      <source src="music.mp3" type="audio/mpeg">
+      Tarayıcınız ses öğesini desteklemiyor.
+    </audio>
+    <button onclick="alert('Dileğini tutmayı unutma! 🎈')">Mumları Üfle! 🕯️</button>
+  </div>
+</body>
+</html>
